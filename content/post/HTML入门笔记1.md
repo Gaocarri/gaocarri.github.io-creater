@@ -1,6 +1,6 @@
 ---
 # 常用定义
-title: "HTML入门笔记"           # 标题
+title: "HTML入门笔记1"           # 标题
 date: 2019-10-28    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["HTML","笔记"]  # 标签
