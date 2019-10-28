@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "HTML常用标签"           # 标题
-date: 2019-10-28    # 创建时间
+date: 2019-10-29    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["HTML","笔记"]  # 标签
 categories: ["HTML"]              # 分类
@@ -199,6 +199,8 @@ index.html和./index.html指的都是HTML文件相同目录下的index.html
 2. autocomplete 是否使用自动填充
 3. method 控制是POST还是GET 默认GET
 4. target
+
+* form的事件属性: onsubmit
   
 * HTML5验证器 代表必须要填 否则提示无法提交
 ```
