@@ -178,3 +178,34 @@ index.html和./index.html指的都是HTML文件相同目录下的index.html
 * table-layout:具有auto和fixed两种值，分别对应根据浏览器划定的(根据字符宽度)的和平均的
 * border-collapse:为collapse就是合并边框的意思 默认不合并
 * border-spacing:border之间的距离
+
+
+# 四.其他
+
+* input和button
+* input必须有`type="submit"`才是提交按钮 button默认就是submit
+```
+<input type="submit">
+<button>
+  <strong>
+    123
+  </strong>
+</button>
+```
+
+* form标签的四个属性
+
+1. action 控制请求哪个页面
+2. autocomplete 是否使用自动填充
+3. method 控制是POST还是GET 默认GET
+4. target
+  
+* HTML5验证器 代表必须要填 否则提示无法提交
+```
+<input type="text" required>
+```
+
+* 注意事项
+    * 一般不监听input的click事件
+    * form里面的input要有name
+    * form里面要放一个type=submit才能触发submit事件
