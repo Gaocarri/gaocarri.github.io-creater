@@ -1,6 +1,6 @@
 ---
 # 常用定义
-title: "CSS的Float,Flex,Grid定位"           # 标题
+title: "CSS的Float,Flex,Grid布局"           # 标题
 date: 2019-10-30    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["CSS布局","Float","Flex","Grid"]  # 标签
@@ -52,11 +52,13 @@ clearfix{
 
 
 重点：
-* `display:flex`
-* `flex-direction:row/column`
-* `flex-wrap:wrap`
-* `justify-content:center/space-between`
-* `align-items:center`
+
+
+*  `display:flex`
+*  `flex-direction:row/column`
+*  `flex-wrap:wrap`
+*  `justify-content:center/space-between`
+*  `align-items:center`
 
 
 # Grid布局
