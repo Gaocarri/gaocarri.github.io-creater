@@ -4,7 +4,7 @@ title: "浅析URL"           # 标题
 date: 2019-10-31    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["URL","HTTP","网络"]  # 标签
-categories: ["博客使用"]              # 分类
+categories: ["HTTP"]              # 分类
 author: "Carri"                  # 作者
 
 # 用户自定义
