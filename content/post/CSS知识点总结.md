@@ -63,7 +63,7 @@ mathjax: true    # 打开 mathjax
 
 * 它们的优点：没有repaint过程，比使用left(改变属性)性能好
 
-## transition（过渡过）
+## transition（过渡）
 
 ```
 #xxx {
@@ -91,7 +91,7 @@ mathjax: true    # 打开 mathjax
 ```
 或者
 ```
-keyframes xxx{
+@keyframes xxx{
     0% {top:0;left:0;}
     30%{top:50px;}
     100%{top:100px;left:100%}
