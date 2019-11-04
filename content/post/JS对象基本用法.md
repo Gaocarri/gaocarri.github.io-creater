@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "JS对象基本用法"           # 标题
-date: 2019-11-03    # 创建时间
+date: 2019-11-04    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["JS","Javascript","javascript入门","javascript语法","对象"]  # 标签
 categories: ["JavaScript"]              # 分类
