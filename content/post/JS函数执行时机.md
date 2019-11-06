@@ -3,7 +3,7 @@
 title: "JS函数执行时机"           # 标题
 date: 2019-11-05    # 创建时间
 draft: false                       # 是否是草稿？
-tags: ["JS","Javascript","javascript入门","javascript语法","函数"]  # 标签
+tags: ["JS","Javascript","javascript入门","javascript语法","函数","执行时机"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
 
