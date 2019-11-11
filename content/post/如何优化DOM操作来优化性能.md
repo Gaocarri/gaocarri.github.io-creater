@@ -1,6 +1,6 @@
 ---
 # 常用定义
-title: "如何优化DOM操作优化性能"           # 标题
+title: "如何优化DOM操作来优化性能"           # 标题
 date: 2019-11-11    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["JavaScript","JS","DOM"]  # 标签
