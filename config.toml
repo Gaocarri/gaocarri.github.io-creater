@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "http://gaocarri.github.io"
-title = "Carri的米奇妙妙屋"
+title = "卡里的技术博客"
 enableRobotsTXT = true
 enableEmoji = false
 theme = "jane"
