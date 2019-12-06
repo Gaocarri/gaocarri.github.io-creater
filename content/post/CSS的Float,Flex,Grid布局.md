@@ -7,7 +7,7 @@ tags: ["CSS布局","Float","Flex","Grid"]  # 标签
 categories: ["CSS"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["CSS布局","Float","Flex","Grid"]
-description : "CSS布局","Float","Flex","Grid"
+description: "CSS的Float,Flex,Grid布局" 
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
