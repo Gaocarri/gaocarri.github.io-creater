@@ -106,10 +106,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   baidu_verification = ""   # Baidu Verification
   google_verification = ""  # Google_Verification         # 谷歌
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = ['']            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = ['']             # if ['custom.js'], load '/static/js/custom.js' file
+
 
   # enable 'fork me on github', see https://blog.github.com/2008-12-19-github-ribbons/
   # forkMeOnGithub = "https://github.com/xianmin/hugo-theme-jane"
@@ -161,7 +158,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     appKey = ""
 
   [params.commentCount.disqus] # show counts of comments for Disqus
-    enable = true
+    enable = false
 
    [params.social]                                         # 社交链接
     a-email = "mailto:gaocarri@163.com"

@@ -34,7 +34,7 @@ mathjax: true    # 打开 mathjax
 
 它的基本用法：
 ```
-let example =new Promise(resolve,reject){
+let example =new Promise((resolve,reject)=>{
     //在这里写你想写的代码
     //然后在某些条件下解决了什么问题
     if(/*你想写的条件*/){
@@ -42,7 +42,7 @@ let example =new Promise(resolve,reject){
     }else{
         reject()
     }
-}
+})
 
 example.then(()=>{
     //这里写example被resolve时执行的

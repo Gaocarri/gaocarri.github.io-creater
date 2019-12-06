@@ -45,7 +45,7 @@ mathjax: true    # 打开 mathjax
 
 
 9. 用Function创建Array（实际没有名字）
-10. 让Array.prototype的地址为#101
+10. 让Array.prototype的地址为#404
 [![Mk9lh8.png](https://s2.ax1x.com/2019/11/07/Mk9lh8.png)](https://imgchr.com/i/Mk9lh8)
 
 

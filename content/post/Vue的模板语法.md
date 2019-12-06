@@ -4,7 +4,7 @@ title: "Vue的模板语法"           # 标题
 date: 2019-12-020    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架"]  # 标签
-categories: ["Vue"]              # 分类
+categories: ["框架"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["Vue","框架"]
 description: "Vue的模板语法"  
