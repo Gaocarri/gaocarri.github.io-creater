@@ -18,7 +18,7 @@ mathjax: true    # 打开 mathjax
 ---
 
 # 如何选取布局
-![KIippn.md.png](https://s2.ax1x.com/2019/10/31/KIippn.md.png)
+![布局](/images/如何选用布局.png)
 
 * 图片来自饥人谷
 

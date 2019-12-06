@@ -16,6 +16,7 @@ contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/l
 reward: false	 # 关闭打赏
 mathjax: true    # 打开 mathjax
 ---
+
 # IP的作用是什么
 * IP：Internet Protocol
 * 约定了两件事情（作用）
