@@ -3,9 +3,11 @@
 title: "认识MVC"           # 标题
 date: 2019-11-29    # 创建时间
 draft: false                       # 是否是草稿？
-tags: ["javascript","框架"]  # 标签
+tags: ["JavaScript","框架"]  # 标签
 categories: ["框架"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JavaScript","框架"]
+description : "认识MVC"
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

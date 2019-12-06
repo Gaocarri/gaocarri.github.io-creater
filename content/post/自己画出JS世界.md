@@ -6,6 +6,8 @@ draft: false                       # 是否是草稿？
 tags: ["JS","Javascript","原型"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JS","Javascript","原型"]
+description : "自己画出JS世界"  
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

@@ -3,9 +3,11 @@
 title: "JS基本语法"           # 标题
 date: 2019-11-03    # 创建时间
 draft: false                       # 是否是草稿？
-tags: ["JS","Javascript","javascript入门","javascript语法"]  # 标签
+tags: ["JS","JavaScript","JavaScript入门",JavaScript语法"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JS","JavaScript","JavaScript入门",JavaScript语法"]
+description : "JS基本语法" 
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

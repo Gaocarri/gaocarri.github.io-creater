@@ -6,6 +6,8 @@ draft: false                       # 是否是草稿？
 tags: ["博客使用","Hugo"]  # 标签
 categories: ["博客使用"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["博客使用","Hugo"]
+description : "如何使用Hugo搭建个人博客"
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

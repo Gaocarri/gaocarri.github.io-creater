@@ -6,6 +6,8 @@ draft: false                       # 是否是草稿？
 tags: ["JS","Javascript","javascript入门","javascript语法","对象"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JS","Javascript","javascript入门","javascript语法","对象"]
+description : "JS对象基本用法" 
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

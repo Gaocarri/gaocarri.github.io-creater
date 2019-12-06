@@ -6,6 +6,8 @@ draft: false                       # 是否是草稿？
 tags: ["URL","HTTP","网络"]  # 标签
 categories: ["HTTP"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["URL","HTTP","网络"]
+description : "浅析URL"
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

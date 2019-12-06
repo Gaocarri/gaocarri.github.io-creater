@@ -1,11 +1,13 @@
 ---
 # 常用定义
-title: "使用Promosie"           # 标题
+title: "使用Promise"           # 标题
 date: 2019-12-02    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["JavaScript","ES6","异步"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JavaScript","ES6","异步"]
+description : "使用Promise"     
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项

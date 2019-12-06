@@ -6,6 +6,8 @@ draft: false                       # 是否是草稿？
 tags: ["JavaScript","JS","DOM"]  # 标签
 categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
+keywords: ["JavaScript","JS","DOM"]
+description : "如何优化DOM操作来优化性能"
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
