@@ -8,7 +8,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 paginate = 5              # Number of articles displayed on the homepage # 首页每页显示的文章数
 rssLimit = 50            # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-154009244-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
@@ -101,15 +101,15 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
   tencent_analytics = ""    # Tencent Analytics
-  baidu_push = true       # baidu push                  # 百度
+  baidu_push = false      # baidu push                  # 百度
   baidu_analytics = ""      # Baidu Analytics
   baidu_verification = ""   # Baidu Verification
   google_verification = ""  # Google_Verification         # 谷歌
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+  customCSS = ['']            # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = ['']             # if ['custom.js'], load '/static/js/custom.js' file
 
   # enable 'fork me on github', see https://blog.github.com/2008-12-19-github-ribbons/
   # forkMeOnGithub = "https://github.com/xianmin/hugo-theme-jane"
@@ -134,8 +134,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   [params.search.google]    # google custom search, see https://cse.google.com
     enable = true
-    id = "002186711602136249422:q1gkomof_em"
+    id = "015885799274435903025:9g3qczbcvxd"
     title = "Search"
+
  
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID
