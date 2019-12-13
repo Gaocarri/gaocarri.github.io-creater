@@ -305,10 +305,10 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
     </script>
 ```
 
-4. 计算属性
+## 4. 计算属性
  * 记住计算属性有缓存，而methods没有（更占内存）
 
-举例,通过计算属性计算`books`的总价格
+1. 举例,通过计算属性计算`books`的总价格(这个例子中，我们只是使用getter来读取，某些情况下可以提供一个setter方法，不常用)
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -371,4 +371,36 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
 </html>
 ```
 
-Vue的第一天学习就这样了，争取半个月搞定Vue!!奥力给
+2. set和get方法(在控制台输入app.fullName,会调用set方法，同时改变firstName和lastName)
+```
+    <div id="app">
+        <h2>{{fullName}}</h2>
+    </div>
+
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                firstName: 'Kobe',
+                lastName: 'Bryant'
+            },
+            // 计算属性一般没有set方法，只读属性
+            computed: {
+                fullName: {
+                    set(newValue) {
+                        console.log('调用了set', newValue)
+                        const names = newValue.split(' ')
+                        this.firstName = names[0]
+                        this.lastName = names[1]
+                    },
+                    get() {
+                        return this.firstName + ' ' + this.lastName
+                    }
+                }
+            }
+        })
+    </script>
+```
+
+Vue的第一天学习就这样了，争取十天搞定Vue!!奥力给
