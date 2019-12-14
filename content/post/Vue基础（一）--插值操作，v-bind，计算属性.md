@@ -1,6 +1,6 @@
 ---
 # 常用定义
-title: "Vue基础（一）"           # 标题
+title: "Vue基础(一)--插值操作，v-bind，计算属性"           # 标题
 date: 2019-12-13    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架"]  # 标签
@@ -107,7 +107,7 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
 
 * 上述的#app里面的{{message}}已经交由Vue控制了，这是Vue的Mustache语法,它显示的值就是`data`里的`message`
 
-1. v-once
+### v-once
 ```
     <div id="app">
         <h2>{{message}}</h2>
@@ -116,7 +116,7 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
     </div>
 ```
 
-2. v-html
+### v-html
 ```
     <div id="app">
         <h2>{{url}}</h2>
@@ -135,11 +135,11 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
     </script>
 ```
 
-3. v-text
+### v-text
     
-    * 用法同`v-html`,但是它不包含html用法，会覆盖标签内的全部内容，一般很少使用
+  * 用法同`v-html`,但是它不包含html用法，会覆盖标签内的全部内容，一般很少使用
 
-4. v-pre
+### v-pre
 
 ```
 <h2 v-pre>{{message}}</h2>
@@ -147,7 +147,7 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
 这里显示的解果是{{message}}，原封不动的显示
 
 
-5. v-cloak(cloak斗篷的意思)
+### v-cloak(cloak斗篷的意思)
 ```
     <style>
         [v-cloak] {
@@ -192,9 +192,9 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
     </script>
 ```
 
-1. v-bind绑定class
+### v-bind绑定class
     
-    * 对象语法
+  * 对象语法
 ```
     <div id="app">
         <!-- 对象语法 -->
@@ -255,9 +255,9 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
 ```   
 
 
-2. v-bind绑定字符串
+### v-bind绑定字符串
 
-    * 对象语法
+* 对象语法
 ```
     <div id="app">
         <!-- <h2 :style="{key(css属性名):value（属性值）}">{{message}}</h2> -->
@@ -285,7 +285,7 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
     </script>
 ```
 
-   * 数组语法（用的少）
+* 数组语法（用的少）
 ```
     <div id="app">
         <h2 :style="[baseStyle]">{{message}}</h2>
@@ -310,16 +310,6 @@ Vue是一种MVVM框架。（也有人说现在是一种MV*框架）
 
 1. 举例,通过计算属性计算`books`的总价格(这个例子中，我们只是使用getter来读取，某些情况下可以提供一个setter方法，不常用)
 ```
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
 <body>
     <div id="app">
         <h2>总价格：{{totalPrice}}</h2>
