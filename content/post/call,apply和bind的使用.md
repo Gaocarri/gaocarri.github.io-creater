@@ -4,7 +4,7 @@ title: "call,apply和bind的使用"           # 标题
 date: 2019-12-08    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["JavaScript","this"]  # 标签
-categories: ["JavaScript","this"]              # 分类
+categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["JavaScript","this"]
 description : "call,apply和bind的使用"  

@@ -4,7 +4,7 @@ title: "jQuery的使用"           # 标题
 date: 2019-11-13    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["JavaScript","JS","DOM","jQuery"]  # 标签
-categories: ["jQuery"]              # 分类
+categories: ["JavaScript"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["JavaScript","JS","DOM","jQuery"]
 description : "jQuery的使用"   
