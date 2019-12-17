@@ -4,7 +4,7 @@ title: "Vue基础(二)--事件监听，条件判断，循环遍历，v-model"   
 date: 2019-12-14    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架"]  # 标签
-categories: ["框架"]              # 分类
+categories: ["Vue"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["Vue","框架"]
 description: "Vue基础（二）"  
