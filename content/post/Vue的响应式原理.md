@@ -101,7 +101,7 @@ Object.defineProperty里的：
 说下这个过程吧：
 
 * new了一个发布者`dep`,一个`data`属性会对应一个不同的`dep`
-* new了订阅者（相当于Vue实例中的每一个用到data其中一个属性的地方，给它们每个人都起个名字），例如new了`w1`之后，会调用发布者`dep.addSub()`方法，让其真正成为发布者的订阅者（加入到订阅者数组中）
+* new了订阅者（相当于Vue实例中的每一个用到data其中一个属性的地方，给它们每个人都起个名字），例如new了`w1`之后，会调用发布者`dep.addSub()`方法(在`Object.defineProperty`的`get`方法中调用)，让其真正成为发布者的订阅者（加入到订阅者数组中）
 * 当某个订阅者值发生改变时，会调用发布者`dep.notify()`方法，通知所有订阅者它们的值发生改变了，执行订阅者的`update()`。
 * 于是乎,当值发生改变时,在`Object.defineProperty`的`set`方法中,就会调用`dep.notify()`来更新所有订阅者的值
 
