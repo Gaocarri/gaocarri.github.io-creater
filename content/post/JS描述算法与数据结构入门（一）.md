@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "JS描述数据结构与算法入门"           # 标题
+title: "JS描述数据结构与算法（一）"           # 标题
 date: 2020-01-12    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["数据结构与算法","数据结构"]  # 标签
 categories: ["数据结构与算法"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["数据结构与算法","数据结构"]
-description : "JS描述数据结构与算法入门"   
+description : "JS描述数据结构与算法（一）"   
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
