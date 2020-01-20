@@ -58,3 +58,5 @@ Hi username! You’ve successfully authenticated, but GitHub does not provide sh
 ```
 
 问题解决！
+
+奇妙的是我把它更改为443端口后再更改回22端口，居然不报错了，尚不清楚为什么，如果有人有新的发现，请给我留言，非常感谢
