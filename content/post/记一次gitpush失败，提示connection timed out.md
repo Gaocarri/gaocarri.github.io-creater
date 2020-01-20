@@ -1,6 +1,6 @@
 ---
 # 常用定义
-title: "记一次git push失败，提示connection time out"           # 标题
+title: "记一次git push失败，提示connection timed out"           # 标题
 date: 2020-01-20    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["git"]  # 标签
