@@ -553,4 +553,4 @@ mathjax: true    # 打开 mathjax
     console.log(list.getTail());
 ```
 
-链表实现比较复杂，注意和数组的对比
+链表实现比较复杂，注意和数组的对比，下期哈希表。
