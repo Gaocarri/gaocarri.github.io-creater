@@ -19,7 +19,7 @@ reward: false	 # 关闭打赏
 mathjax: true    # 打开 mathjax
 ---
 
-* 包含队列
+* 包含链表
 
 ## 链表
 
