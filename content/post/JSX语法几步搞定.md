@@ -8,7 +8,6 @@ categories: ["React"]              # 分类
 author: "Carri"                 # 作者
 keywords: ["React"]
 description : "JSX语法几步搞定"
-eact
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
 comment: true   # 关闭评论
