@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "详解React生命周期"           # 标题
-date: 2020-05-01   # 创建时间
+date: 2020-05-07   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
