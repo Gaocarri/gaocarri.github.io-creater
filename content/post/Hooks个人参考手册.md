@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "详解React函数组件"           # 标题
-date: 2020-05-12 # 创建时间
+date: 2020-05-15 # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
@@ -123,7 +123,7 @@ const onClickChild = useMemo(()=>{
 - useCallBack，useMemo的语法糖
 
 ```
-useCallBaack(x=>console.log(x),[m])
+useCallBack(x=>console.log(x),[m])
 useMemo(()=>x=>console.log(x),[m])
 ```
 
