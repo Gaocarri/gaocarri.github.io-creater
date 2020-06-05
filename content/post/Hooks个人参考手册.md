@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "详解React函数组件"           # 标题
+title: "Hooks个人参考手册"           # 标题
 date: 2020-05-15 # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
 author: "Carri"                 # 作者
 keywords: ["React"]
-description : "详解React函数组件"
+description : "Hooks个人参考手册"
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
 comment: true   # 关闭评论
