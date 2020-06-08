@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "详解React类组件"           # 标题
-date: 2020-05-06   # 创建时间
+title: "一篇说通React类组件"           # 标题
+date: 2020-05-17   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
 author: "Carri"                 # 作者
 keywords: ["React"]
-description : "详解React类组件" 
+description : "一篇说通React类组件" 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
 comment: true   # 关闭评论
@@ -20,7 +20,7 @@ mathjax: true    # 打开 mathjax
 
 # 类组件
 
-1. ES6如何创建组件
+1.ES6如何创建组件
 
 ```jsx
 import React from 'react'
@@ -37,7 +37,7 @@ class B extends React.Component{
 
 - 234行可以省掉（如果不需要在constructor里做什么的话）
 
-2. props
+2.props
 
 - 传数据给B组件
 
@@ -93,12 +93,12 @@ class B extends React.Component{
   - react的原则就是应该由数据的主人对数据进行更改
   - 不要自己修改props的值和属性
 
-3. props的作用
+3.props的作用
 
 - 接受外部的数据
 - 接受外部的函数
 
-4. state&setState
+4.state&setState
 
 - setState不会立即改变state，它是异步的
 
@@ -127,7 +127,7 @@ onClick2=()=>{
 
 # 类组件事件绑定
 
-1. 类组件
+1.类组件事件绑定
 
 ```
 class Welcome extends React.Component{
@@ -140,7 +140,7 @@ class Welcome extends React.Component{
 }
 ```
 
-2. 一个举例,为什么用箭头函数
+2.一个举例,为什么用箭头函数
 ```
 class Person{
 sayHi()

@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "自己实现React之useState"           # 标题
-date: 2020-05-12 # 创建时间
+date: 2020-05-30 # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
@@ -18,19 +18,21 @@ reward: false	 # 关闭打赏
 mathjax: true    # 打开 mathjax
 ---
 
+
+模拟useState
+
 # useState原理深入
 
-1. `const [n,setN] = React.use(0)`
+1.`const [n,setN] = React.useState(0)`
 
-2. 分析
+2.分析
 
 - setN会修改数据x，将n+1存入x
-- setN一定会触发<App / >重新渲染（re-render）
+- setN一定会触发App的重新渲染（re-render）
 - useState肯定会从x读取n的最新值
 - 每个组件都有自己的数据x，我们将其命名为state
 
-3. 自己写一个useState
-
+3.自己写一个useState
 ```jsx
 let _state 
 
@@ -51,8 +53,7 @@ const App = ()=>{
     const [n,setN] = myUseState(0)
 }
 ```
-
-4. 但是myUseState有问题，如果调用了两次myUseState会有冲突
+4.但是myUseState有问题，如果调用了两次myUseState会有冲突
 
 - 把_state改成数组
 
@@ -82,12 +83,12 @@ const App = ()=>{
 }
 ```
 
-5. 因为顺序的原因，myUse不能放在if..else..里,可以自己尝试一下原版的useState，提示组件调用的Hook不能有顺序变化
-6. myUseState还有一个问题，两个组件不能同时用这个_state和index
+5.因为顺序的原因，myUse不能放在if..else..里,可以自己尝试一下原版的useState，提示组件调用的Hook不能有顺序变化
+6.myUseState还有一个问题，两个组件不能同时用这个_state和index
 
 - React的解决办法，放在组件对应的虚拟节点对象上
 
-7. 总结
+7.总结
 
 - 每个函数组件对应一个React节点
 - 每个节点保存着state和index
@@ -95,10 +96,9 @@ const App = ()=>{
 - index由useState出现的顺序决定
 - setState会修改state，并触发更新
 
-8. 由于useState产生新的n，并不直接修改原来的n，所以该状态没有贯穿失重，其他贯穿始终的状态
+8.由于useState产生新的n，并不直接修改原来的n，所以该状态没有贯穿始终，可以贯穿始终的状态
 
 - useRef
-  - useRef不仅可以用于div，还能用于任意数据（它改变数据就是改变的当前数据），但不能自己触发render，可以用setN触发
+  - useRef不仅可以用于div，还能用于任意数据（它改变数据就是改变当前数据），但不能自己触发render，可以用setN触发
   - useContext不仅能贯穿始终，还能贯穿不同组件
-
-# React生命周期
+  - 同时ref还可以用来引用DOM对象

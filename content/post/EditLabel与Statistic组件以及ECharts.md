@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "EditLabel与Statistic组件的封装及思路"          # 标题
+title: "EditLabel与Statistic组件以及ECharts"          # 标题
 date: 2020-04-07   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","TypeScript"]  # 标签
 categories: ["黑曜石记账项目笔记"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["Vue","框架","JS库"]
-description: "EditLabel与Statistic组件的封装及思路"  
+description: "EditLabel与Statistic组件以及ECharts"  
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
@@ -66,7 +66,7 @@ mathjax: true    # 打开 mathjax
 
 - 这样就可以在首页获取所对应的年月日和支出收入了
 
-2. Vue+Ts使用echarts
+# Vue+Ts使用echarts
 
 ```
 <template>

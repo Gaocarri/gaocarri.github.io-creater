@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "详解React生命周期"           # 标题
-date: 2020-05-07   # 创建时间
+title: "React生命周期是什么"           # 标题
+date: 2020-05-22   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
 author: "Carri"                 # 作者
 keywords: ["React"]
-description : "详解React生命周期"
+description : "React生命周期是什么"
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
 comment: true   # 关闭评论
@@ -20,7 +20,7 @@ mathjax: true    # 打开 mathjax
 
 # React生命周期
 
-1. 类比代码
+1.类比代码
 
 ```jsx
 let div = document.ceateElement('div')
@@ -33,7 +33,7 @@ div.remove
 // 这是div的unmount过程
 ```
 
-2. 生命周期列表
+2.生命周期列表
 
 - constructor() --在这里初始化state
 - static getDerivedStateFromProps() 不常用
@@ -46,13 +46,13 @@ div.remove
 - static getDerivedFromError() 不常用
 - componentDidCatch() 不常用
 
-3. constructor
+3.constructor
 
 - 初始化props
 - 初始化state,但不能调用setState
 - 可不写
 
-4. shouldComponentUpdate
+4.shouldComponentUpdate
 
 - 返回true表示不阻止UI更新
 - 返回false表示阻止UI更新
@@ -108,7 +108,7 @@ class App extends React.PureComponent{
 
 - react修改对象setState返回新对象，不直接在this.state上改
 
-5. render
+5.render
 
 - return一个虚拟DOM
 - 只能有一个根元素，否则用<React.Fragment></React.Fragment>包起来，这个元素不渲染，只用来做个占位，可以用**空标签**代替<></>
@@ -124,7 +124,7 @@ class App extends React.PureComponent{
   }
   ```
 
-6. componentdidMount
+6.componentdidMount
 
 - 执行依赖于DOM的方法
 
@@ -178,14 +178,14 @@ class App extends React.PureComponent{
 - 发起加载数据的AJAX请求（官方推荐）
 - 首次渲染会执行
 
-7. componentDidUpdate()
+7.componentDidUpdate()
 
 - 视图更新后执行代码
 - 此处也可以发起AJAX，用于更新数据
 - 此处setState可能会引起无限循环，除非放在if里
 - 如果shouldComponentUpdate的为false，则不会触发此钩子
 
-8. componentWillUnmount
+8.componentWillUnmount
 
 - 组件要被**移出页面然后被销毁时**执行代码
 - 举例

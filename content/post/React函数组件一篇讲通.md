@@ -1,7 +1,7 @@
 ---
 # 常用定义
-title: "详解React函数组件"           # 标题
-date: 2020-05-10  # 创建时间
+title: "React函数组件一篇讲通"           # 标题
+date: 2020-05-18  # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类
@@ -18,11 +18,11 @@ reward: false	 # 关闭打赏
 mathjax: true    # 打开 mathjax
 ---
 
-函数组件相对简单，注意函数组件没有生命周期
+函数组件相对简单，注意函数组件没有生命周期，但可以模拟生命周期
 
 # 函数组件
 
-1. 写法
+1. 基本写法
 
 ```
 const App = ()=>{
@@ -44,12 +44,14 @@ const App = props => {
 }
 ```
 
-3. 函数组件模拟生命周期
+3. 函数组件Tips
 
 - 函数组件没有state,要使用React.useState
 - 没有生命周期
 
-4. 使用useEffect解决生命周期问题
+# 函数组件模拟生命周期
+
+1. 使用useEffect解决生命周期问题
 
 ```
 useEffeect(()=>{},[])
@@ -71,7 +73,7 @@ useEffect(()=>{
 // return一个函数代表销毁 即componentWillUmount
 ```
 
-5. 模拟Update除去第一次渲染,自定义React Hooks
+2. 模拟Update除去第一次渲染,自定义React Hooks
 
 ```
 const [nUpdateCount,setNUpdcateCount] = React.useState(0)

@@ -1,13 +1,13 @@
 ---
 # 常用定义
-title: "Vue项目部署"          # 标题
+title: "如何将Vue项目部署到GitHub"          # 标题
 date: 2020-04-10   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","TypeScript"]  # 标签
 categories: ["黑曜石记账项目笔记"]              # 分类
 author: "Carri"                  # 作者
 keywords: ["Vue","框架","JS库"]
-description: "Vue项目部署"  
+description: "如何将Vue项目部署到GitHub"  
 
 # 用户自定义
 # 你可以选择 关闭(false) 或者 打开(true) 以下选项
