@@ -84,6 +84,8 @@ const App = ()=>{
 ```
 
 5.因为顺序的原因，myUse不能放在if..else..里,可以自己尝试一下原版的useState，提示组件调用的Hook不能有顺序变化
+
+
 6.myUseState还有一个问题，两个组件不能同时用这个_state和index
 
 - React的解决办法，放在组件对应的虚拟节点对象上
@@ -93,7 +95,7 @@ const App = ()=>{
 - 每个函数组件对应一个React节点
 - 每个节点保存着state和index
 - useState会读取state[index]
-- index由useState出现的顺序决定
+- index由useState出现的顺序决定(当组件重新渲染的时候会将index置为0，然后根据调用的顺序来取用state，所以不能把useState放在if判断里)
 - setState会修改state，并触发更新
 
 8.由于useState产生新的n，并不直接修改原来的n，所以该状态没有贯穿始终，可以贯穿始终的状态
