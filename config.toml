@@ -1,3 +1,4 @@
+  
 baseURL = "http://gaocarri.top"
 title = "卡里的技术博客"
 enableRobotsTXT = true
@@ -193,5 +194,3 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 #   mediaType = "application/json"
 #   baseName = "feed"
 #   isPlainText = true
-
-
