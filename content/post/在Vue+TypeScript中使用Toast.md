@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "在Vue+TypeScript中使用Toast"          # 标题
-date: 2020-03-21   # 创建时间
+date: 2020-07-11   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","TypeScript"]  # 标签
 categories: ["黑曜石记账项目笔记"]              # 分类

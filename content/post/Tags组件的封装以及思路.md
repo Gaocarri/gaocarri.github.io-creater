@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "Tags组件的封装以及思路"          # 标题
-date: 2020-03-24   # 创建时间
+date: 2020-07-28   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","TypeScript"]  # 标签
 categories: ["黑曜石记账项目笔记"]              # 分类

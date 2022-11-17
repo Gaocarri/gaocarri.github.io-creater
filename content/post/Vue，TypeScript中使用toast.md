@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "Vue，TypeScript中使用toast"          # 标题
-date: 2020-03-13   # 创建时间
+date: 2020-05-05   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","TypeScript"]  # 标签
 categories: ["Vue"]              # 分类

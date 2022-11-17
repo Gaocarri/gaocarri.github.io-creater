@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "React函数组件一篇讲通"           # 标题
-date: 2020-05-21  # 创建时间
+date: 2020-12-12  # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类

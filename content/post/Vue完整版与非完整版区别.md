@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "Vue完整版与非完整版区别"          # 标题
-date: 2020-02-02    # 创建时间
+date: 2020-03-30    # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架"]  # 标签
 categories: ["Vue"]              # 分类

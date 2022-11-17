@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "JSX语法几步搞定"           # 标题
-date: 2020-05-11   # 创建时间
+date: 2020-10-25   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["React"]  # 标签
 categories: ["React"]              # 分类

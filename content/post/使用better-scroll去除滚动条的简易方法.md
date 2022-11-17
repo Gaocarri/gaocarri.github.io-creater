@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "使用better-scroll去除滚动条的简易方法"          # 标题
-date: 2020-03-06   # 创建时间
+date: 2020-05-01   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架","JS库"]  # 标签
 categories: ["Vue"]              # 分类

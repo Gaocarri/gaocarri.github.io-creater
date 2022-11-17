@@ -1,7 +1,7 @@
 ---
 # 常用定义
 title: "Vue冷门api之provide"          # 标题
-date: 2020-07-16   # 创建时间
+date: 2021-06-11   # 创建时间
 draft: false                       # 是否是草稿？
 tags: ["Vue","框架"]  # 标签
 categories: ["Vue"]              # 分类
